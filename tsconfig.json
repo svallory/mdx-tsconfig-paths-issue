@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "/snippets/*": [
+        "./snippets/*"
+      ]
+    }
+  },
+  "mdx": {
+    "checkMdx": true
+  },
+  "include": [
+    "./**/*.mdx",
+    "./**/*.ts",
+    "./**/*.jsx",
+    "./**/*.d.ts"
+, "components/test.ts"  ],
+  "exclude": [
+    "node_modules",
+    ".tsdocs"
+  ]
+}

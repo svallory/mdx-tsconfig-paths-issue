@@ -1,0 +1,81 @@
+---
+title: Quick Start
+description: Generate API documentation in under 2 minutes
+icon: "rocket"
+---
+
+## 1. Initialize
+
+Run this in your TypeScript project:
+
+```bash
+npx mint-tsdocs
+```
+
+The tool will:
+- Auto-detect your TypeScript entry point
+- Find your Mintlify docs folder
+- Ask a few configuration questions
+- Set everything up
+
+<Tip>
+  Use `--yes` to accept all defaults: `npx mint-tsdocs --yes`
+</Tip>
+
+## 2. Generate
+
+```bash
+npx mint-tsdocs generate
+```
+
+Done! Your API documentation is now in your docs folder.
+
+## 3. Preview
+
+```bash
+cd docs
+mintlify dev
+```
+
+Your docs are live at `http://localhost:3000`.
+
+<Note>
+  Don't have Mintlify installed? Run `npm install -g mintlify` first.
+</Note>
+
+## What You Get
+
+<CardGroup cols={2}>
+  <Card title="MDX Files" icon="file-code">
+    One page per exported class, interface, function, etc.
+  </Card>
+  <Card title="Auto Navigation" icon="map">
+    docs.json updated automatically
+  </Card>
+  <Card title="Interactive Components" icon="wand-magic-sparkles">
+    ParamField, ResponseField, Expandable
+  </Card>
+  <Card title="Type Analysis" icon="microscope">
+    Nested objects, unions, generics all supported
+  </Card>
+</CardGroup>
+
+## Next Steps
+
+<CardGroup cols={3}>
+  <Card title="CLI Reference" icon="terminal" href="/cli-reference">
+    All commands and options
+  </Card>
+  <Card title="Config Reference" icon="gear" href="/config-reference">
+    Configuration options
+  </Card>
+  <Card title="Components" icon="puzzle" href="/components/type-tree">
+    Custom documentation components
+  </Card>
+</CardGroup>
+
+## Need More Control?
+
+<Card title="Setup Guide" icon="wrench" href="/guides/setup-guide">
+  Manual configuration, monorepos, troubleshooting, and advanced scenarios
+</Card>

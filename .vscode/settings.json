@@ -1,0 +1,6 @@
+{
+  "mdx.server.enable": true,
+  "mdx.trace.server": "verbose",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "mdx.trace.server.verbosity": "compact"
+}
